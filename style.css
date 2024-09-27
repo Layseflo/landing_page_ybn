@@ -1,0 +1,274 @@
+header {
+    background-color: black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Aligne le logo et les boutons à gauche */
+    padding: 0 20px; 
+    gap: 20px; /* Espace entre le logo et les boutons */
+}
+
+
+.logo {
+    size: 10px;
+    margin-top: auto;
+    min-width: 100px;
+    height: 100px;
+}
+
+.section1 {
+    background-image: url('image_presentation.jpg');
+    background-size: cover; /* Pour couvrir toute la section */
+    background-position: center; /* Centrer l'image */
+    background-repeat: no-repeat; /* Pour éviter que l'image ne se répète */
+    width: 100%; 
+    height: 700px; 
+    background-color: rgb(44, 36, 36);
+    background-size: 100%;
+    margin-top: 0%;
+}
+
+
+
+
+.img_pre {
+    width: 100%; 
+    height: 800px;
+    object-fit: cover; /* Assure que l'image couvre tout l'espace sans déformation */
+}
+
+.btn1, .btn2 {
+    background-color: rgb(0, 0, 0);
+    border-color: black;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 2px black;
+    padding: 30px 20px; 
+    cursor: pointer;
+}
+
+.btn1:hover, .btn2:hover {
+    color: #ff2121;
+}
+
+
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+    font-style: oblique;
+    
+    
+}
+
+h2 {
+    max-width: 800px; /* Ajuste la largeur maximale selon tes besoins */
+    margin: 20px auto; /* Espace en haut et en bas, centrer horizontalement */
+    padding-left: 00px; /* Ajuste la valeur pour déplacer le texte vers la droite */
+    text-align: left; /* Aligne le texte à gauche */
+    color: aliceblue;
+}
+
+.button2 {
+    display: block; /* Change de flex à block */
+    margin: 20px auto; /* Centre horizontalement */
+    padding: 10px;
+    color: white;
+    background-color: rgb(209, 147, 33);
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px rgba(245, 6, 6, 0.3);
+    border: none;
+    width: fit-content; /* Ajuste la largeur automatiquement en fonction du contenu */
+}
+
+.button3 {
+    display: block; /* Change de flex à block */
+    margin: 20px auto; /* Centre horizontalement */
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px rgba(253, 4, 4, 0.3);
+    border: none;
+    width: fit-content; /* Ajuste la largeur automatiquement en fonction du contenu */
+    
+}
+
+.button2:hover{
+    background-color: rgb(199, 80, 0);
+    cursor: pointer; 
+    padding: 12px; 
+}
+
+.button3:hover{
+    background-color: rgb(212, 194, 181);
+    cursor: pointer;
+    padding: 12px;  
+}
+
+footer{
+    background-color: black;
+    padding: 100px;
+    color: white;
+}
+
+.div-foot{
+    max-width:400px ;
+}
+.img-foot {
+    margin: auto;
+    padding: 30px;
+    height: 70px;
+    width: 70px;
+}
+
+
+.section2{
+    background-color: black;
+}
+
+video {
+ 
+        width: 100%; /* Ajustez la largeur selon vos besoins */
+        height: 600px; /* Ajustez la hauteur selon vos besoins */
+        border: none; /* Supprime la bordure de l'iframe */
+        pointer-events: none;
+}
+
+.section4 {
+    background-color: rgb(44, 36, 36);
+    
+}
+
+
+
+.img-gng1, .img-gng{
+    height: 500px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+
+.discord {
+    display: block; /* Change de flex à block */
+    margin: 20px auto; /* Centre horizontalement */
+    padding: 10px;
+    color: white;
+    background-color: rgb(209, 147, 33);
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px rgba(245, 6, 6, 0.3);
+    border: none;
+    width: fit-content; /* Ajuste la largeur automatiquement en fonction du contenu */
+}
+
+.discord:hover{
+    background-color: rgb(199, 80, 0);
+    cursor: pointer; 
+    padding: 12px; 
+}
+
+.container {
+    display: flex; /* Utilise Flexbox */
+    flex-direction: column; /* Aligne les éléments en colonne */
+}
+
+.div-gng {
+    margin: 25px 0; /* Espace de 25px en haut et en bas (50px au total entre les divs) */
+    margin-left: 200px; /* Éloigne le premier et le dernier div de 200px à gauche */
+}
+
+.div-gng1 {
+    margin: 25px 0; /* Espace de 25px en haut et en bas (50px au total entre les divs) */
+    margin-right: 200px; /* Éloigne le div à droite de 200px */
+    align-self: flex-end; /* Aligne seulement le div-gng1 à droite */
+}
+
+.div-dis {
+    float: right; /* Flotte la div à droite */
+    margin-left: 20px; /* Optionnel : ajoute une marge à gauche pour un espacement */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Typographie */
+}
+
+.container {
+    display: flex; /* Utilise Flexbox pour l'alignement */
+    justify-content: space-around; /* Espacement entre les éléments */
+}
+
+.div-gng, .div-gng1 {
+    position: relative; /* Nécessaire pour le positionnement de la biographie */
+    margin: 20px; /* Espace autour de chaque div */
+    display: flex; /* Utilise Flexbox pour aligner l'image et la biographie */
+    align-items: center; /* Aligne l'image et la biographie verticalement */
+}
+
+.bio {
+    display: none; /* Masque la biographie par défaut */
+    margin-left: 20px; /* Espace entre l'image et la biographie */
+    padding: 10px; /* Ajoute de l'espace à l'intérieur de la biographie */
+    border: none; /* Bordure grise */
+    z-index: 1; /* S'assure que la biographie soit au-dessus des autres éléments */
+    width: 200px; /* Largeur fixe pour la biographie */
+    color: white;
+}
+
+.div-gng1 {
+    flex-direction: row; /* Garde l'ordre normal pour la div-gng1 */
+}
+
+.div-gng:hover .bio, .div-gng1:hover .bio {
+    display: block; /* Affiche la biographie au survol */
+}
+
+.div-gng1:hover .bio {
+    margin-left: 0; /* Supprime la marge gauche pour la div-gng1 */
+    margin-right: 20px; /* Ajoute un espace à droite pour la biographie */
+}
+
+h3 {
+    color: white;
+}
+
+.back-img {
+    width: 100%;
+    height: 100%;
+}
+
+.first-pre {
+    display: flex;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Added smooth transition */
+}
+
+.image-container.scrolled {
+    opacity: 0;
+    transform: translateY(-100px); /* Moves the content up as it fades out */
+}
+
+.back-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.overlay-text {
+    z-index: 2;
+    color: white;
+    text-align: center;
+}
