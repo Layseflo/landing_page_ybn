@@ -3,9 +3,9 @@ header {
     height: 100px;
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* Aligne le logo et les boutons à gauche */
+    justify-content: flex-start; 
     padding: 0 20px; 
-    gap: 20px; /* Espace entre le logo et les boutons */
+    gap: 20px;
 }
 
 
@@ -18,9 +18,9 @@ header {
 
 .section1 {
     background-image: url('image_presentation.jpg');
-    background-size: cover; /* Pour couvrir toute la section */
-    background-position: center; /* Centrer l'image */
-    background-repeat: no-repeat; /* Pour éviter que l'image ne se répète */
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
     width: 100%; 
     height: 700px; 
     background-color: rgb(44, 36, 36);
@@ -34,7 +34,7 @@ header {
 .img_pre {
     width: 100%; 
     height: 800px;
-    object-fit: cover; /* Assure que l'image couvre tout l'espace sans déformation */
+    object-fit: cover; 
 }
 
 .btn1, .btn2 {
@@ -65,35 +65,35 @@ h1 {
 }
 
 h2 {
-    max-width: 800px; /* Ajuste la largeur maximale selon tes besoins */
-    margin: 20px auto; /* Espace en haut et en bas, centrer horizontalement */
-    padding-left: 00px; /* Ajuste la valeur pour déplacer le texte vers la droite */
-    text-align: left; /* Aligne le texte à gauche */
+    max-width: 800px; 
+    margin: 20px auto; 
+    padding-left: 00px; 
+    text-align: left; 
     color: aliceblue;
 }
 
 .button2 {
-    display: block; /* Change de flex à block */
-    margin: 20px auto; /* Centre horizontalement */
+    display: block; 
+    margin: 20px auto;
     padding: 10px;
     color: white;
     background-color: rgb(209, 147, 33);
     text-align: center;
     box-shadow: 2px 2px 2px 2px rgba(245, 6, 6, 0.3);
     border: none;
-    width: fit-content; /* Ajuste la largeur automatiquement en fonction du contenu */
+    width: fit-content; 
 }
 
 .button3 {
-    display: block; /* Change de flex à block */
-    margin: 20px auto; /* Centre horizontalement */
+    display: block; 
+    margin: 20px auto; 
     padding: 10px;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     text-align: center;
     box-shadow: 2px 2px 2px 2px rgba(253, 4, 4, 0.3);
     border: none;
-    width: fit-content; /* Ajuste la largeur automatiquement en fonction du contenu */
+    width: fit-content; 
     
 }
 
@@ -132,9 +132,9 @@ footer{
 
 video {
  
-        width: 100%; /* Ajustez la largeur selon vos besoins */
-        height: 600px; /* Ajustez la hauteur selon vos besoins */
-        border: none; /* Supprime la bordure de l'iframe */
+        width: 100%;
+        height: 600px; 
+        border: none; 
         pointer-events: none;
 }
 
@@ -153,15 +153,15 @@ video {
 
 
 .discord {
-    display: block; /* Change de flex à block */
-    margin: 20px auto; /* Centre horizontalement */
+    display: block; 
+    margin: 20px auto; 
     padding: 10px;
     color: white;
     background-color: rgb(209, 147, 33);
     text-align: center;
     box-shadow: 2px 2px 2px 2px rgba(245, 6, 6, 0.3);
     border: none;
-    width: fit-content; /* Ajuste la largeur automatiquement en fonction du contenu */
+    width: fit-content;
 }
 
 .discord:hover{
@@ -171,63 +171,63 @@ video {
 }
 
 .container {
-    display: flex; /* Utilise Flexbox */
-    flex-direction: column; /* Aligne les éléments en colonne */
+    display: flex;
+    flex-direction: column;
 }
 
 .div-gng {
-    margin: 25px 0; /* Espace de 25px en haut et en bas (50px au total entre les divs) */
-    margin-left: 200px; /* Éloigne le premier et le dernier div de 200px à gauche */
+    margin: 25px 0;
+    margin-left: 200px; 
 }
 
 .div-gng1 {
-    margin: 25px 0; /* Espace de 25px en haut et en bas (50px au total entre les divs) */
-    margin-right: 200px; /* Éloigne le div à droite de 200px */
-    align-self: flex-end; /* Aligne seulement le div-gng1 à droite */
+    margin: 25px 0; 
+    margin-right: 200px; 
+    align-self: flex-end; 
 }
 
 .div-dis {
-    float: right; /* Flotte la div à droite */
-    margin-left: 20px; /* Optionnel : ajoute une marge à gauche pour un espacement */
+    float: right; 
+    margin-left: 20px; 
 }
 
 body {
-    font-family: Arial, sans-serif; /* Typographie */
+    font-family: Arial, sans-serif; 
 }
 
 .container {
-    display: flex; /* Utilise Flexbox pour l'alignement */
-    justify-content: space-around; /* Espacement entre les éléments */
+    display: flex; 
+    justify-content: space-around; 
 }
 
 .div-gng, .div-gng1 {
-    position: relative; /* Nécessaire pour le positionnement de la biographie */
-    margin: 20px; /* Espace autour de chaque div */
-    display: flex; /* Utilise Flexbox pour aligner l'image et la biographie */
-    align-items: center; /* Aligne l'image et la biographie verticalement */
+    position: relative; 
+    margin: 20px; 
+    display: flex; 
+    align-items: center; 
 }
 
 .bio {
-    display: none; /* Masque la biographie par défaut */
-    margin-left: 20px; /* Espace entre l'image et la biographie */
-    padding: 10px; /* Ajoute de l'espace à l'intérieur de la biographie */
-    border: none; /* Bordure grise */
-    z-index: 1; /* S'assure que la biographie soit au-dessus des autres éléments */
-    width: 200px; /* Largeur fixe pour la biographie */
+    display: none; 
+    margin-left: 20px; 
+    padding: 10px;
+    border: none;
+    z-index: 1; 
+    width: 200px; 
     color: white;
 }
 
 .div-gng1 {
-    flex-direction: row; /* Garde l'ordre normal pour la div-gng1 */
+    flex-direction: row; 
 }
 
 .div-gng:hover .bio, .div-gng1:hover .bio {
-    display: block; /* Affiche la biographie au survol */
+    display: block; 
 }
 
 .div-gng1:hover .bio {
-    margin-left: 0; /* Supprime la marge gauche pour la div-gng1 */
-    margin-right: 20px; /* Ajoute un espace à droite pour la biographie */
+    margin-left: 0;
+    margin-right: 20px; 
 }
 
 h3 {
@@ -243,32 +243,3 @@ h3 {
     display: flex;
 }
 
-.image-container {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: opacity 0.5s ease, transform 0.5s ease; /* Added smooth transition */
-}
-
-.image-container.scrolled {
-    opacity: 0;
-    transform: translateY(-100px); /* Moves the content up as it fades out */
-}
-
-.back-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.overlay-text {
-    z-index: 2;
-    color: white;
-    text-align: center;
-}
